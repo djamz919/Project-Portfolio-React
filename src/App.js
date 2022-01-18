@@ -1,5 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Nav from './components/Navigation';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Project from './components/Project';
+import Contact from './components/Contact';
 
 function App() {
   return (
