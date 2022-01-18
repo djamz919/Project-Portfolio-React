@@ -1,6 +1,6 @@
 import React from 'react';
 // import coverImage from '../../assets/cover/cover-image.jpg';
-function Skills() {
+function Projects() {
     return (
         <section className="my-5">
             <h1 id="about">Projects</h1>
@@ -12,4 +12,4 @@ function Skills() {
     );
 }
 
-export default Skills;
+export default Projects;

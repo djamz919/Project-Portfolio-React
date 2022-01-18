@@ -1,39 +1,46 @@
 import React, { useState } from 'react';
-import Nav from './components/Navigation';
 import About from './components/About';
 import Footer from './components/Footer';
-// import Header from './components/Header';
-// import Project from './components/Project';
-// Import Skill from './components/Skill';
+import Header from './components/Header';
+import Projects from './components/Project';
+import Skills from './components/Skill';
 import ContactForm from './components/Contact';
 
 function App() {
-  const [categories] = useState([
-    { name: 'projects', description: 'display of projects' },
-    { name: 'skills', descriptions: 'list of credentials and skills'}
-  ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
+  const [aboutMeSelected, setAboutMeSelected] = useState(false);
+  const [projectsSelected, setProjectsSelected] = useState(false);
+  const [skillsSelected, setSkillsSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
+      <Header
+        aboutMeSelected={aboutMeSelected}
+        setAboutMeSelected={setAboutMeSelected}
+        projectsSelected = {projectsSelected}
+        setProjectsSelected = {setProjectsSelected}
+        skillsSelected = {skillsSelected}
+        setSkillsSelected = {setSkillsSelected}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
-      ></Nav>
+      ></Header>
       <main>
-        {!contactSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        {() => {
+          if (aboutMeSelected && !projectsSelected && !skillsSelected && !contactSelected) {
+            return (<About></About>)
+          } else if (!aboutMeSelected && projectsSelected && !skillsSelected && !contactSelected) {
+            return (<Projects></Projects>)
+          } else if (!aboutMeSelected && !projectsSelected && skillsSelected && !contactSelected) {
+            return (<Skills></Skills>)
+          } else if (!aboutMeSelected && !projectsSelected && !skillsSelected && contactSelected) {
+            return (<ContactForm></ContactForm>)
+          } else {
+            return (<About></About>)
+          }
+        }
+
+        }
         <Footer></Footer>
       </main>
     </div>
