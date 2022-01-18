@@ -3,10 +3,10 @@ import React from 'react';
 function Skills() {
     return (
         <section className="my-5">
-            <h1 id="about">Projects</h1>
+            <h1 id="about">Skills</h1>
             {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
             <div className="my-2">
-                <p>Projects go here</p>
+                <p>Skills go here</p>
             </div>
         </section>
     );

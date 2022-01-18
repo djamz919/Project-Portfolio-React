@@ -16,18 +16,16 @@ function App() {
   return (
     <div>
       <Header
-        aboutMeSelected={aboutMeSelected}
         setAboutMeSelected={setAboutMeSelected}
-        projectsSelected = {projectsSelected}
         setProjectsSelected = {setProjectsSelected}
-        skillsSelected = {skillsSelected}
         setSkillsSelected = {setSkillsSelected}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Header>
       <main>
-        {() => {
+        {(() => {
           if (aboutMeSelected && !projectsSelected && !skillsSelected && !contactSelected) {
+            console.log(aboutMeSelected + ' ' + projectsSelected + ' ' + skillsSelected + ' ' + contactSelected);
             return (<About></About>)
           } else if (!aboutMeSelected && projectsSelected && !skillsSelected && !contactSelected) {
             return (<Projects></Projects>)
@@ -38,9 +36,7 @@ function App() {
           } else {
             return (<About></About>)
           }
-        }
-
-        }
+        })()}
         <Footer></Footer>
       </main>
     </div>
