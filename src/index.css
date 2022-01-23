@@ -159,6 +159,74 @@ footer {
   display: flex;
 }  
 
+
+/* SECTION TITLE AND BORDER STYLES START */
+.section-title {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: 35px;
+  border-bottom: 2px solid;
+  color: var(--primary-color);
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 35px;
+  width: 100%;
+  align-self: flex-end;
+  letter-spacing: .1em;
+}
+
+.primary-border {
+  border-color: var(--primary-color);
+}
+  
+.secondary-border {
+  border-bottom: 1px solid;
+  border-color: var(--tertiary-color);
+}
+/* SECTION TITLE AND BORDER STYLES END */
+
+/* ABOUT ME STYLES */
+.aboutme {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  background-color: var(--secondary-color);
+}
+
+.aboutme img {
+  width: 25%;
+}
+
+.aboutmecontainer {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  justify-content: flex-start;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+.text p {
+  color: var(--primary-color);
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+/* ABOUT ME END */
+
 /* CREDENTIALS STYLES */
 .credentials {
   width: 100%;
