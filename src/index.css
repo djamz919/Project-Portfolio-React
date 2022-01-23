@@ -76,8 +76,39 @@ header nav ul li a:hover, header nav ul li span:hover {
   text-shadow: none;
   transition: .5s;
 }
-
 /* HEADER / NAVBAR STYLES END */
+
+/* HERO STYLES START */
+.hero {
+  background-image: url('./assets/images/Hong_Kong_background.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 0 40px;
+  background-size: 100%;
+  padding: 260px 230px;
+  background-repeat: no-repeat;
+  background-color: #1a1b27;
+}
+
+.hero h2 {
+  font-weight: lighter;
+  font-size: 25px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: .225em;
+}
+/*HERO STYLES END */
 
 /* FOOTER STYLES START */
 footer {

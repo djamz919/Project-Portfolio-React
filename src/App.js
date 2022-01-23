@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Projects from './components/Project';
 import Skills from './components/Skill';
 import ContactForm from './components/Contact';
+import Hero from './components/Hero';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         setContactSelected={setContactSelected}
       ></Header>
       <main>
+        <Hero></Hero>
         {(() => {
           if (aboutMeSelected && !projectsSelected && !skillsSelected && !contactSelected) {
             console.log(aboutMeSelected + ' ' + projectsSelected + ' ' + skillsSelected + ' ' + contactSelected);
