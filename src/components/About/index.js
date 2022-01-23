@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="my-5">
       <h1 id="about">About Me</h1>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
+      {/* <img src="assets/images/Daryll-Munoz-Selfie.jpg" alt="Daryll Munoz Selfie"> */}
       <div className="my-2">
         <p>
         Daryll is currently a business analyst based in the New York Metro area with experience in user-acceptance testing, automation testing, and the cloud.
