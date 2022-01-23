@@ -384,3 +384,176 @@ footer {
   padding: 10px 0px;
 }
 /* SKILLS END */
+
+
+/* PROJECTS STYLES */
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #000847;
+}
+
+.projectcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.budget-better {
+  width: 60%;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-image: url('./assets/images/Budget-Better.PNG');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: stretch;
+}
+
+.dollar-flights {
+  width: 60%;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-image: url('./assets/images/DollarFlightsWebpage.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: stretch;
+}
+
+.mainproject {
+  width: 100%;
+  display: flex;
+}
+
+.mainproject span {
+  opacity: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.61);
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainproject h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.mainproject span:hover, .otherprojects span:hover {
+  opacity: 1;
+}
+
+.budget-better:hover, .dollar-flights:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+.small-project:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.budget-better:link, .budget-better:visited, .dollar-flights:link, .dollar-flights:visited, .other-projects:link, .other-projects:visited {
+  text-decoration: none;
+}
+
+.otherprojects {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.moreprojects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.other-projects{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.small-project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+.additional-rpojects {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+.small-project span {
+  opacity: 0;
+  margin-top: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.61);
+  width: 100%;
+  height: 100%;
+  padding: 130px 0;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.dollar-flights {
+  background-image: url('./assets/images/DollarFlightsWebpage.png');
+  background-size: cover;
+}
+
+.weather-dashboard {
+  background-image: url('./assets/images/Weather_Dashboard.png');
+  background-size: cover;
+}
+
+.run-buddy {
+  background-image: url('./assets/images/runbuddy.PNG');
+  background-size: cover;
+}
+
+.coding-qiuz {
+  background-image: url('./assets/images/JavaScript_Coding_Quiz.png');
+  background-size: cover;
+}
+
+.password-generator {
+  background-image: url('./assets/images/Password-Generator.PNG');
+  background-size: cover;
+  background-position: center;
+}
+
+.small-project span {
+  margin-top: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.534);
+  width: 100%;
+  height: 100%;
+}
+
+/* PROJECTS END */
