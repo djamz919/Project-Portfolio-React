@@ -78,3 +78,210 @@ header nav ul li a:hover, header nav ul li span:hover {
 }
 
 /* HEADER / NAVBAR STYLES END */
+
+/* FOOTER STYLES START */
+footer {
+  background: var(--tertiary-color);
+  padding: 40px 35px;
+  width: 100%;
+}
+
+.media {
+  background: var(--tertiary-color);
+  padding: 40px 35px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.media ul li{
+  list-style: none;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  padding: 0px 20px;
+}
+
+.media ul li a:link, .media ul li a:visited, .media ul li a:active{
+  color: white;
+  text-decoration: none;
+}
+
+.media ul li a:hover{
+  color: gray;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  display: block;
+  color: var(--primary-color);
+  font-size: 12px;
+  letter-spacing: .225em;
+  padding: 0;
+  text-transform: uppercase;
+}
+/* END FOOTER STYLES */
+
+/* UTILITIES */
+.flex-row {
+  display: flex;
+}  
+
+/* CREDENTIALS STYLES */
+.credentials {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #00023b;
+}
+
+.credentials-content {
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.education {
+  width: 42%;
+  margin: 20px 0;
+  background-color: #ffffff3b;
+}
+
+.certifications {
+  width: 54%;
+  margin: 20px 0;
+  background-color: #ffffff3b;
+}
+
+.education h3, .certifications h3 {
+  font-size: 28px;
+  background-color: #ffffff3b;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.education h3, .certifications h3 {
+  color: white;
+  width: 100%;
+}
+
+.education div h4, .certifications a div h4 {
+  font-size: 22px;
+}
+
+.education div, .certifications a div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.education div h4, .subcontent{
+  width: 80%;
+  padding-left: 25px;
+  color: white;
+}
+
+.subcontent {
+  font-style: italic;
+}
+
+.date {
+  color: var(--primary-color);
+  text-align: right;
+  padding-right: 25px;
+  width: 20%;
+}
+
+.certifications div h4 {
+  color: white;
+  width: 80%;
+  padding-left: 25px;
+}
+
+.certifications a:link, .certifications a:visited {
+  text-decoration: none;
+}
+
+.education div:hover, .certifications div:hover {
+  background-color: var(--tertiary-color);
+}
+
+/* CREDENTIALS END */
+
+/* SKILLS STYLES */
+.skills {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #000120;
+}
+
+.skillcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.skillcontainer div {
+  width: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  background-color: #ffffff3b;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.skillcontainer div:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  background-color: var(--secondary-color);
+}
+
+.skillcontainer div h3 {
+  color: var(--primary-color);
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  font-size: 26px;
+  text-align: center;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: lighter;
+  background-color: #ffffff3b;
+}
+
+.listskill {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listskill li{
+  width: 95%;
+  color: var(--primary-color);
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+/* SKILLS END */
