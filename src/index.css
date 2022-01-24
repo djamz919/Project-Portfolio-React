@@ -178,6 +178,22 @@ footer {
   letter-spacing: .1em;
 }
 
+.resume {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: 35px;
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 35px;
+  width: 100%;
+  align-self: flex-end;
+  letter-spacing: .1em;
+}
+
 .primary-border {
   border-color: var(--primary-color);
 }
@@ -325,7 +341,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  background-color: #000120;
+  background-color: #00023b;
 }
 
 .skillcontainer {
@@ -557,3 +573,315 @@ footer {
 }
 
 /* PROJECTS END */
+
+/* CONTACT START */
+.contact {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #00023b;
+}
+
+#contact-form {
+  color: var(--primary-color);
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  margin-left: 35px;
+}
+
+#contact-form div {
+  padding: 10px 0;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary-color);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid var(--secondary-color);
+  padding: 5px;
+}
+
+button {
+  background: var(--primary-color);
+  border: 0;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+/* CONTACT END */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1440px) {
+  .section-title {
+      font-size: 26px;
+  }
+
+  .text p{
+      font-size: 20px;
+  }
+
+  .text{
+      padding-bottom: 15px;
+  }
+
+  .aboutme img {
+      width: 46%;
+  }
+
+  .aboutmecontainer {
+      width: 54%;
+  }
+
+  .hero {
+      background-position: 0 70px;
+      padding: 200px;
+  }
+
+  .hero h2 {
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .mainproject span {
+      padding: 170px 0;
+  }
+
+  .small-project span{
+      padding: 80px 0;
+  }
+
+  .credentials-content{
+      flex-direction: column;
+  }
+
+  .education, .certifications {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .text p {
+      font-size: 16px;
+  }
+
+  .budget-better, .dollar-flights{
+      width: 100%;
+      padding: auto;
+  }
+
+  .small-project {
+      margin-top: 0;
+  }
+
+  .other-projects{
+      width: 47.5%;
+  }
+
+  .otherprojects{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .hero{
+      margin-top: auto;
+      padding: 140px;
+  }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  .section-title {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  header {
+      padding-bottom: 20px;
+      justify-content: center;
+      position: relative;
+  }
+  
+  header h1 {
+      width: 100%;
+      text-align: center;
+  }
+
+  .section-title {
+      font-size: 26px;
+  }
+
+  .text p{
+      font-size: 16px;
+  }
+
+  .text{
+      padding-bottom: 15px;
+  }
+  
+  header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+  }
+  
+  header nav ul li a, header nav ul li span {
+      font-size: 16px;
+  }
+
+  .hero{
+      padding: 120px 30px;
+      background-position: 0 0;
+      background-attachment: scroll;
+  }
+
+  .hero h2 {
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .aboutme img{
+      display: none;
+  }
+
+  .aboutmecontainer{
+      width: 100%;
+  }
+
+  .mainproject span, .otherprojects span {
+      opacity: 1;
+  }
+
+  .skillcontainer{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .skillcontainer div{
+      width: 100%;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .aboutme img{
+      display: none;
+  }
+
+  .hero {
+      padding: 100px 30px;
+  }
+
+  textarea {
+    width: 300px;
+    height: 120px;
+    border: 3px solid var(--secondary-color);
+    padding: 5px;
+  }
+
+  .aboutmecontainer{
+      width: 100%;
+  }
+
+  .mainproject span {
+      padding: 130px 0;
+  }
+
+  .small-project span h3{
+      font-size: 18px;
+  }
+
+  .small-project span p{
+      font-size: 12px;
+  }
+
+  .education h3, .certifications h3 {
+      font-size: 20px;
+  }
+
+  .education div h4, .certifications a div h4 {
+      font-size: 16px;
+  }
+
+  .date, .subcontent {
+      font-size: 12px;
+  }
+
+  .skillcontainer div h3 {
+      font-size: 18px;
+  }
+
+  .listskill li {
+      font-size: 12px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero {
+      padding: 60px 30px;
+  }
+
+  .hero h2 {
+      font-size: 14px;
+  }
+
+  .section-title {
+      padding-bottom: 10px;
+  }
+
+  .small-project span h3 {
+      font-size: 10px;
+  }
+
+  .small-project span p {
+      font-size: 8px;
+  }
+
+  .education div h4, .certifications a div h4, .subcontent {
+      padding-left: 10px;
+      width: 70%;
+  }
+
+  header nav ul li a,  header nav ul li span{
+      font-size: 12px;
+  }
+
+  .date{
+      width: 30%;
+      font-size: 10px;
+      padding-right: 10px;
+  }
+
+  .media ul li {
+      font-size: 20px;
+      padding: 0px 5px;
+  }
+}

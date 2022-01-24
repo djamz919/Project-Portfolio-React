@@ -4,7 +4,7 @@ function Projects() {
     return (
         <section id="Projects" class="projects">
         <h2 class="section-title primary-border">
-            Projects
+            Portfolio
         </h2>
         <div class="projectcontainer">
             <a target="_blank" rel="noreferrer" href="rutgers-budget-better.herokuapp.com/" class="budget-better">

@@ -35,17 +35,7 @@ function Header(props) {
                             setProjectsSelected(true);
                             setSkillsSelected(false);
                         }}>
-                            Projects
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <a data-testid="skills" onClick={() => {
-                            setContactSelected(false);
-                            setAboutMeSelected(false);
-                            setProjectsSelected(false);
-                            setSkillsSelected(true);
-                        }}>
-                            Skills
+                            Portfolio
                         </a>
                     </li>
                     <li className={`mx-2 ${contactSelected && 'navActive'}`}>
@@ -56,6 +46,16 @@ function Header(props) {
                             setSkillsSelected(false);
                         }}>
                             Contact</span>
+                    </li>
+                    <li className="mx-2">
+                        <a data-testid="skills" onClick={() => {
+                            setContactSelected(false);
+                            setAboutMeSelected(false);
+                            setProjectsSelected(false);
+                            setSkillsSelected(true);
+                        }}>
+                            Resume
+                        </a>
                     </li>
                 </ul>
             </nav>

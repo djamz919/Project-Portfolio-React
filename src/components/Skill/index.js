@@ -1,11 +1,12 @@
 import React from 'react';
+import resume from './DaryllMunoz_Resume.pdf';
 
 function Skills() {
     return (
         <div>
             <section id="Credentials" class="credentials">
-                <h2 class="section-title primary-border">
-                    Credentials
+                <h2 class="primary-border resume">
+                    <a href={resume}>Download my Resume</a>
                 </h2>
 
                 <div class="credentials-content">
@@ -55,12 +56,16 @@ function Skills() {
                         <ul class="listskill">
                             <li class="secondary-border">HTML5</li>
                             <li class="secondary-border">CSS3</li>
-                            <li>JavaScript</li>
+                            <li class="secondary-border">JavaScript</li>
+                            <li class="secondary-border">React</li>
+                            <li class="secondary-border">Express</li>
                         </ul>
                     </div>
                     <div>
                         <h3>Back-End</h3>
                         <ul class="listskill">
+                            <li class="secondary-border">MySQL</li>
+                            <li class="secondary-border">MongoDB</li>
                             <li>Java</li>
                         </ul>
                     </div>
