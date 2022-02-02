@@ -407,6 +407,7 @@ footer {
   width: 100%;
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   background-color: #000847;
@@ -434,19 +435,6 @@ footer {
   align-items: stretch;
 }
 
-.dollar-flights {
-  width: 60%;
-  border-radius: 20px;
-  border: 3px solid white;
-  background-image: url('./assets/images/DollarFlightsWebpage.png');
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  align-items: stretch;
-}
-
 .mainproject {
   width: 100%;
   display: flex;
@@ -462,9 +450,10 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 200px 0;
 }
 
-.mainproject h3 {
+.mainproject h3, .github-link {
   font-size: 30px;
   font-weight: bolder;
   padding-bottom: 5px;
@@ -474,7 +463,7 @@ footer {
   opacity: 1;
 }
 
-.budget-better:hover, .dollar-flights:hover {
+.budget-better:hover, .dollar-flights:hover, .run-buddy:hover, .weather-dashboard:hover, .coding-qiuz:hover, .password-generator:hover {
   transform: scale(1.02);
   transition: 0.5s;
 }
@@ -484,15 +473,17 @@ footer {
   transition: 0.5s;
 }
 
-.budget-better:link, .budget-better:visited, .dollar-flights:link, .dollar-flights:visited, .other-projects:link, .other-projects:visited {
+.github-link {
+  margin-top: 5%;
+}
+
+.github-link:link, .budget-better:link, .budget-better:visited, .dollar-flights:link, .dollar-flights:visited, .other-projects:link, .other-projects:visited {
   text-decoration: none;
 }
 
-.otherprojects {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.github-linK:active, .github-link:visited, .run-buddy:link, .run-buddy:visited, .weather-dashboard:link, .weather-dashboard:visited, .coding-qiuz:link, .coding-qiuz:visited, .password-generator:link, .password-generator:visited {
+  text-decoration: none;
+  color: white;
 }
 
 .moreprojects {
@@ -503,7 +494,7 @@ footer {
 }
 
 .other-projects{
-  width: 100%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   margin-top: 30px;
@@ -516,9 +507,10 @@ footer {
   flex-direction: column;
   border-radius: 20px;
   border: 3px solid white;
+  height: 100%;
 }
 
-.additional-rpojects {
+.additional-projects {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -541,27 +533,67 @@ footer {
 .dollar-flights {
   background-image: url('./assets/images/DollarFlightsWebpage.png');
   background-size: cover;
+  width: 60%;
+  border-radius: 20px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: stretch;
 }
 
 .weather-dashboard {
   background-image: url('./assets/images/Weather_Dashboard.png');
   background-size: cover;
+  width: 60%;
+  border-radius: 20px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: stretch;
 }
 
 .run-buddy {
   background-image: url('./assets/images/runbuddy.PNG');
   background-size: cover;
+  width: 60%;
+  border-radius: 20px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: stretch;
 }
 
 .coding-qiuz {
   background-image: url('./assets/images/JavaScript_Coding_Quiz.png');
   background-size: cover;
+  width: 60%;
+  border-radius: 20px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: stretch;
 }
 
 .password-generator {
   background-image: url('./assets/images/Password-Generator.PNG');
   background-size: cover;
   background-position: center;
+  width: 60%;
+  border-radius: 20px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: stretch;
 }
 
 .small-project span {

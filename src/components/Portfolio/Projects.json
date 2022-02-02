@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Budget Better",
+        "class": "budget-better",
+        "github": "https://github.com/krushilnaik/Budget-Better",
+        "app": "https://rutgers-budget-better.herokuapp.com/",
+        "technologies": "CSS, JavaScript, Handlebars, MySQL, Sequelize"
+    },
+    {
+        "id": 2,
+        "name": "Dollar Flights",
+        "class": "dollar-flights",
+        "github": "https://github.com/djamz919/DollarFlights",
+        "app": "https://djamz919.github.io/DollarFlights/",
+        "technologies": "HTML, CSS, JavaScript, Third-Party APIs"
+    },
+    {
+        "id": 3,
+        "name": "Run Buddy",
+        "class": "run-buddy",
+        "github": "https://github.com/djamz919/run-buddy",
+        "app": "https://lernantino.github.io/run-buddy/",
+        "technologies": "HTML, CSS"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "class": "weather-dashboard",
+        "github": "https://github.com/djamz919/WeatherDashboard",
+        "app": "https://djamz919.github.io/WeatherDashboard/",
+        "technologies": "HTML, CSS, APIs, JavaScript Moment.js"
+    },
+    {
+        "id": 5,
+        "name": "JavaScript Coding Quiz",
+        "class": "coding-qiuz",
+        "github": "https://github.com/djamz919/javascriptCodeQuiz",
+        "app": "https://djamz919.github.io/javascriptCodeQuiz/",
+        "technologies": "HTML, CSS, JavaScript"
+    },
+    {
+        "id": 6,
+        "name": "Password Generator",
+        "class": "password-generator",
+        "github": "https://github.com/djamz919/password-generator",
+        "app": "https://djamz919.github.io/password-generator/",
+        "technologies": "HTML, CSS, JavaScript"
+    }
+]

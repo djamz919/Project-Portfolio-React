@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Projects from './components/Project';
 import Skills from './components/Skill';
 import ContactForm from './components/Contact';
 import Hero from './components/Hero';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
             console.log(aboutMeSelected + ' ' + projectsSelected + ' ' + skillsSelected + ' ' + contactSelected);
             return (<About></About>)
           } else if (!aboutMeSelected && projectsSelected && !skillsSelected && !contactSelected) {
-            return (<Projects></Projects>)
+            return (<Portfolio></Portfolio>)
           } else if (!aboutMeSelected && !projectsSelected && skillsSelected && !contactSelected) {
             return (<Skills></Skills>)
           } else if (!aboutMeSelected && !projectsSelected && !skillsSelected && contactSelected) {
