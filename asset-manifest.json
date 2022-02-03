@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Project-Portfolio-React/static/css/main.f2b7007a.css",
-    "main.js": "/Project-Portfolio-React/static/js/main.dac19b4a.js",
+    "main.css": "/Project-Portfolio-React/static/css/main.4fc67043.css",
+    "main.js": "/Project-Portfolio-React/static/js/main.f2e64a32.js",
     "static/js/787.bd5c89e0.chunk.js": "/Project-Portfolio-React/static/js/787.bd5c89e0.chunk.js",
     "static/media/Hong_Kong_background.png": "/Project-Portfolio-React/static/media/Hong_Kong_background.ff9d188857c053e21294.png",
     "static/media/runbuddy.PNG": "/Project-Portfolio-React/static/media/runbuddy.5c5915e96e4f18add079.PNG",
+    "static/media/track-my-habits.png": "/Project-Portfolio-React/static/media/track-my-habits.ddc1dbcb4d0393883d47.png",
     "static/media/Daryll-Munoz-Selfie.jpg": "/Project-Portfolio-React/static/media/Daryll-Munoz-Selfie.86573532996bd9d34b20.jpg",
     "static/media/Budget-Better.PNG": "/Project-Portfolio-React/static/media/Budget-Better.ae01d38879d4f0dd1c5a.PNG",
     "static/media/DaryllMunoz_Resume.pdf": "/Project-Portfolio-React/static/media/DaryllMunoz_Resume.d628f74920453092a710.pdf",
@@ -13,12 +14,12 @@
     "static/media/JavaScript_Coding_Quiz.png": "/Project-Portfolio-React/static/media/JavaScript_Coding_Quiz.ccb599f13f5febac9315.png",
     "static/media/Password-Generator.PNG": "/Project-Portfolio-React/static/media/Password-Generator.2cf48345526e78b5c432.PNG",
     "index.html": "/Project-Portfolio-React/index.html",
-    "main.f2b7007a.css.map": "/Project-Portfolio-React/static/css/main.f2b7007a.css.map",
-    "main.dac19b4a.js.map": "/Project-Portfolio-React/static/js/main.dac19b4a.js.map",
+    "main.4fc67043.css.map": "/Project-Portfolio-React/static/css/main.4fc67043.css.map",
+    "main.f2e64a32.js.map": "/Project-Portfolio-React/static/js/main.f2e64a32.js.map",
     "787.bd5c89e0.chunk.js.map": "/Project-Portfolio-React/static/js/787.bd5c89e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2b7007a.css",
-    "static/js/main.dac19b4a.js"
+    "static/css/main.4fc67043.css",
+    "static/js/main.f2e64a32.js"
   ]
 }
