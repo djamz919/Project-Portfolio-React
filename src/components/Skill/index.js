@@ -54,11 +54,10 @@ function Skills() {
                     <div>
                         <h3>Front-End</h3>
                         <ul class="listskill">
-                            <li class="secondary-border">HTML5</li>
-                            <li class="secondary-border">CSS3</li>
+                            <li class="secondary-border">HTML</li>
+                            <li class="secondary-border">CSS</li>
                             <li class="secondary-border">JavaScript</li>
                             <li class="secondary-border">React</li>
-                            <li class="secondary-border">Express</li>
                         </ul>
                     </div>
                     <div>
@@ -66,6 +65,8 @@ function Skills() {
                         <ul class="listskill">
                             <li class="secondary-border">MySQL</li>
                             <li class="secondary-border">MongoDB</li>
+                            <li class="secondary-border">Express</li>
+                            <li class="secondary-border">Node.js</li>
                             <li>Java</li>
                         </ul>
                     </div>
@@ -74,7 +75,8 @@ function Skills() {
                         <ul class="listskill">
                             <li class="secondary-border">Github</li>
                             <li class="secondary-border">Postman</li>
-                            <li>AWS</li>
+                            <li class="secondary-border">AWS</li>
+                            <li>Tableau</li>
                         </ul>
                     </div>
                 </div>
