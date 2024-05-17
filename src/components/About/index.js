@@ -11,8 +11,8 @@ function About() {
           </h2>
           <div class="text">
             <p>
-              Daryll is currently a business analyst based in the New York Metro area with experience in
-              user-acceptance testing, automation testing, and the cloud. He is currently staffed as a QA Engineer
+              Daryll is currently a Visualization and Interaction Science Consultant based in the New York Metro area with experience in
+              project management, quality assurance, user-acceptance testing, automation testing, and the cloud. He is currently staffed as a QA Engineer
               at one of the nation's largest telecommunication companies in their customer experience domain.
             </p>
             <p>
