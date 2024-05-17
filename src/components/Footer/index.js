@@ -12,7 +12,7 @@ function Footer() {
                 </ul>
             </div>
             <div class="copyright">
-                &copy; 2022 DARYLL MUNOZ
+                &copy; 2024 DARYLL MUNOZ
             </div>
         </footer>
     );
