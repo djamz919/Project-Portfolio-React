@@ -4,6 +4,7 @@
         "name": "21 Days - Habit Tracker",
         "class": "habit-tracker",
         "github": "https://github.com/djamz919/Track-My-Habits",
+        "description": "Build a new habit or destroy a bad one with this tool to help set and track your goals for a better you.",
         "app": "https://lit-reaches-99655.herokuapp.com/",
         "technologies": "MongoDB, Express, React, Node, GraphQL, JavaScript, CSS, HTML"
     },
@@ -12,6 +13,7 @@
         "name": "Budget Better",
         "class": "budget-better",
         "github": "https://github.com/krushilnaik/Budget-Better",
+        "description": "Help keep track of your expenses and stay within your budget.",
         "app": "https://rutgers-budget-better.herokuapp.com/",
         "technologies": "CSS, JavaScript, Handlebars, MySQL, Sequelize"
     },
@@ -20,6 +22,7 @@
         "name": "Dollar Flights",
         "class": "dollar-flights",
         "github": "https://github.com/djamz919/DollarFlights",
+        "description": "Plan your trip easily by exploring flight paths and foreign currency exchange rates.",
         "app": "https://djamz919.github.io/DollarFlights/",
         "technologies": "HTML, CSS, JavaScript, Third-Party APIs"
     },
@@ -28,6 +31,7 @@
         "name": "Run Buddy",
         "class": "run-buddy",
         "github": "https://github.com/djamz919/run-buddy",
+        "description": "My first project using HTML and CSS! No JavaScript logic just yet.",
         "app": "https://lernantino.github.io/run-buddy/",
         "technologies": "HTML, CSS"
     },
@@ -36,6 +40,7 @@
         "name": "Weather Dashboard",
         "class": "weather-dashboard",
         "github": "https://github.com/djamz919/WeatherDashboard",
+        "description": "Track the current and forecasted weather of any location using this useful dashboard.",
         "app": "https://djamz919.github.io/WeatherDashboard/",
         "technologies": "HTML, CSS, APIs, JavaScript Moment.js"
     },
@@ -44,6 +49,7 @@
         "name": "JavaScript Coding Quiz",
         "class": "coding-quiz",
         "github": "https://github.com/djamz919/javascriptCodeQuiz",
+        "description": "A short and simple quiz to test your knowledge of JavaScript.",
         "app": "https://djamz919.github.io/javascriptCodeQuiz/",
         "technologies": "HTML, CSS, JavaScript"
     },
@@ -52,6 +58,7 @@
         "name": "Password Generator",
         "class": "password-generator",
         "github": "https://github.com/djamz919/password-generator",
+        "description": "Easily generate a unique password for you!",
         "app": "https://djamz919.github.io/password-generator/",
         "technologies": "HTML, CSS, JavaScript"
     }
